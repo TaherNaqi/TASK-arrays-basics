@@ -12,12 +12,12 @@ console.log(favNums[1]);
 console.log(hobbies[hobbies.length - 1]);
 //Fake Hobby:
 hobbies.push("doing nothing");
-//removing last two elements in the array:
+//removing last two elements in the array
 console.log(hobbies[hobbies.length - 1]);
-hobbies.pop(hobbies.length - 1);
-hobbies.pop(hobbies.length - 1);
+hobbies.pop(hobbies[hobbies.length - 1]);
+hobbies.pop(hobbies[hobbies.length - 1]);
 console.log(hobbies.length);
-//Emptying Array:
+//Emptying Array
 while (hobbies.length > 0) {
   hobbies.pop();
 }
